@@ -1,5 +1,5 @@
 <?php
 
-use Lurza\ArrMacros\Tests\TestCase;
+use PHPUnit\Framework\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

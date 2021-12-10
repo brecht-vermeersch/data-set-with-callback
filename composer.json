@@ -10,30 +10,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lurza\\ArrMacros\\": "src/"
+            "Lurza\\ArrayHelpers\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lurza\\ArrMacros\\Tests\\": "tests/"
+            "Lurza\\ArrayHelpers\\Tests\\": "tests/"
         }
     },
     "require": {
-        "php": "^7.4|8.*",
-        "pestphp/pest": "^1.21",
-        "spatie/laravel-package-tools": "^1.9"
+        "php": "^7.4|8.*"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.23",
-        "nunomaduro/larastan": "^1.0",
-        "pestphp/pest-plugin-laravel": "^1.1"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-              "ArrMacrosServiceProvider"
-            ]
-        }
+        "pestphp/pest": "^1.21"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
