@@ -20,7 +20,7 @@ $data = [
     ],
 ];
 
-data_set($data, 'products.*.price', fn($value) => $value * 2);
+data_set_with_callback($data, 'products.*.price', fn($value) => $value * 2);
 
 /*
     [
