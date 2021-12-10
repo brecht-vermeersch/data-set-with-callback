@@ -1,5 +1,16 @@
 # data_set_with_callback()
 
+[![Latest Stable Version](http://poser.pugx.org/lurza/data-set-with-callback/v)](https://packagist.org/packages/lurza/data-set-with-callback)
+[![Total Downloads](https://img.shields.io/packagist/dt/lurza/data-set-with-callback.svg)](https://packagist.org/packages/lurza/data-set-with-callback)
+
+## Installation
+
+```bash
+composer require lurza/data-set-with-callback 
+```
+
+## Documentation
+
 The **data_set_with_callback** function sets a value within a nested array using "dot" notation by passing the original value to a callback:
 
 ```php
