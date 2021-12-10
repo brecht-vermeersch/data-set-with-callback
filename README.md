@@ -31,3 +31,5 @@ data_set($data, 'products.*.price', fn($value) => $value * 2);
     ]
 */
 ```
+
+The function is heavily inspired by the Laravel data_set function.
