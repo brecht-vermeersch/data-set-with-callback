@@ -1,6 +1,12 @@
 {
-    "name": "lurza/laravel-route-finder",
-    "description": "Laravel command that helps you find routes",
+    "name": "lurza/data-set-with-callback",
+    "description": "Like the laravel data_set function, but accepts a callback!",
+    "keywords": [
+        "laravel",
+        "function",
+        "data_set",
+        "callback"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -9,17 +15,12 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Lurza\\ArrayHelpers\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Lurza\\ArrayHelpers\\Tests\\": "tests/"
-        }
+        "files": [
+            "src/function.php"
+        ]
     },
     "require": {
-        "php": "^7.4|8.*"
+        "php": ">=5.6"
     },
     "require-dev": {
         "pestphp/pest": "^1.21"
