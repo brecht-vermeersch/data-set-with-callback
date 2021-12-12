@@ -4,8 +4,8 @@ if (!function_exists('data_set_with_callback')) {
     /**
      * Set an item on an array using dot notation and a callback that takes in the original value.
      *
-     * @param array $array
-     * @param string|array $key
+     * @param array<string|int, mixed> $array
+     * @param string|array<int, string> $key
      * @param callable $callback
      * @return void
      */
@@ -45,6 +45,10 @@ if (!function_exists('data_set_with_callback')) {
          * There is only one segment left
          */
         $lastSegment = array_shift($segments);
+
+        if(is_null($lastSegment)) {
+            return;
+        }
 
         /**
          * The last segment is a star

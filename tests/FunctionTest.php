@@ -8,6 +8,9 @@ function timesTwo(int $value): int
 test('data_set_with_callback and no stars', function () {
     $arr = [1, "foo" => ["bar" => 1], "baz" => 1, "boo" => [1, 1]];
 
+    data_set_with_callback($arr, "", "timesTwo");
+    $this->assertEquals($arr, [1, "foo" => ["bar" => 1], "baz" => 1, "boo" => [1, 1]]);
+
     data_set_with_callback($arr, "noop", "timesTwo");
     $this->assertEquals($arr, [1, "foo" => ["bar" => 1], "baz" => 1, "boo" => [1, 1]]);
 

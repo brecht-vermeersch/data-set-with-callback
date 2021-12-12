@@ -54,5 +54,7 @@ jobs:
       # Code quality
       - name: Execute tests (Unit and Feature tests) via PestPHP
         # Set environment
-        run: |
-          vendor/bin/pest
+        run: vendor/bin/pest
+
+      - name: PHPStan
+        run: vendor/bin/phpstan analyse -c phpstan.neon
