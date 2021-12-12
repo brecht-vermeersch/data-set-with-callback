@@ -4,8 +4,8 @@ if (!function_exists('data_set_with_callback')) {
     /**
      * Set an item on an array using dot notation and a callback that takes in the original value.
      *
-     * @param array<int|string, mixed>      $array
-     * @param string|array<int, string>     $key
+     * @param array<int|string, mixed>  $array
+     * @param string|array<int, string> $key
      * @param callable(mixed $value): mixed $callback
      *
      * @return void
@@ -48,7 +48,7 @@ if (!function_exists('data_set_with_callback')) {
          */
         $lastSegment = array_shift($segments);
 
-        if($lastSegment === null) {
+        if ($lastSegment === null) {
             return;
         }
 
