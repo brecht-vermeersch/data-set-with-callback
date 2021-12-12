@@ -1,7 +1,9 @@
 # data_set_with_callback()
 
 [![Latest Stable Version](http://poser.pugx.org/lurza/data-set-with-callback/v)](https://packagist.org/packages/lurza/data-set-with-callback)
-[![Total Downloads](https://img.shields.io/packagist/dt/lurza/data-set-with-callback.svg)](https://packagist.org/packages/lurza/data-set-with-callback)
+[![Total Downloads](http://poser.pugx.org/lurza/data-set-with-callback/downloads)](https://packagist.org/packages/lurza/data-set-with-callback)
+![Tests](https://github.com/lurza/data-set-with-callback/actions/workflows/tests.yaml/badge.svg)
+![StyleCI](https://github.styleci.io/repos/436657038/shield?style=flat)
 
 ## Installation
 
